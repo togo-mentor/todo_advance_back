@@ -44,3 +44,4 @@ gem 'rubocop', require: false
 gem 'active_model_serializers'
 gem 'pry-rails'
 gem 'mimemagic', '~> 0.3.10'
+gem "unicorn"
