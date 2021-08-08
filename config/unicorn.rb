@@ -5,7 +5,7 @@ app_path = File.expand_path('../../', __FILE__)  # 「../」が一つ増えて�
 worker_processes 1
 
 #ポート番号を指定
-listen 80
+listen "#{app_path}/tmp/sockets/unicorn.sock"
 
 #アプリケーションの設置されているディレクトリを指定
 working_directory "#{app_path}"  # 「current」を指定
